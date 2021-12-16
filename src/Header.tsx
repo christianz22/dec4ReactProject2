@@ -83,11 +83,11 @@ function Header() {
 
 
 
-    let [searchParams, setSearchParams] = useSearchParams();
+    let [, setSearchParams] = useSearchParams();
     const setQuery = (q: string) => {
         setSearchParams({ 'query': q })
     }
-    searchParams
+    
     let [searchQuery, setSearchQuery] = useState('')
     // searchParams.get('query') default state
 

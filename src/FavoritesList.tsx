@@ -11,12 +11,12 @@ import SaveIcon from './assets/rmsave.png'
 import './FavoritesList.css'
 
 function FavoritesList() {
-    const [recipeItems, setRecipeItems] = useState<RecipeItem[]>([
+    const [recipeItems, ] = useState<RecipeItem[]>([
         { label: "Peyton Manning", healthLabels: '012', cuisineType: "American" }
     ]);
     const context = useContext(FavoritesContext);
     recipeItems
-    setRecipeItems
+    
 
     return (
         <div className="favoritesListContainer">
