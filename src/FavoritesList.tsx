@@ -3,7 +3,7 @@ import RecipeItem from './InterfaceRecipeItem';
 // import PlayerForm from './PlayerForm';
 // import players from './players';
 import FavoritesListRow from './FavoritesListRow';
-import Recipe from './recipe';
+
 import FavoriteTitle from './assets/favorites.png'
 import FavoritesContext from './FavoritesContext';
 import PrintIcon from './assets/rmprint.png'

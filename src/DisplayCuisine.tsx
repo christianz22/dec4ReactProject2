@@ -4,10 +4,7 @@ import indian from './assets/indianCuisine.jpg'
 import mexican from './assets/mexicanCuisine.jpg';
 import italian from './assets/italianCuisine.png';
 import asian from './assets/asianCuisine.jpg';
-// import {Link} from 'react-router-dom';
-// import getRecipe from './GetRecipe';
-import { useState } from 'react';
-import Recipe from './recipe';
+
 import { useSearchParams } from 'react-router-dom'
 
 function DisplayCuisine() {

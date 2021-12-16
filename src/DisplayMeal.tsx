@@ -4,8 +4,7 @@ import lunch from './assets/lunch.jpg';
 import brunch from './assets/brunch.jpeg';
 import dinner from './assets/dinner.jpg';
 import dessert from './assets/dessert.jpg';
-import Recipe from './recipe';
-import {useState} from 'react';
+
 import { useSearchParams } from 'react-router-dom'
 
 function DisplayMeal() {

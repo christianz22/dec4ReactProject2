@@ -6,7 +6,7 @@ import DisplayDiet from './DisplayDiet'
 import DisplayCuisine from './DisplayCuisine'
 import favoritesHeart from './assets/rmfavselected2.png'
 // import american from '../public/americanFood.jpg';
-import { Link, Navigate, useSearchParams } from 'react-router-dom'
+import { Link,  useSearchParams } from 'react-router-dom'
 import ReciMeTitle from './assets/rmheader2.png'
 import ReciMeLogo from './assets/rmlogo2.png'
 import HomeButton from './assets/rmhome2.png'

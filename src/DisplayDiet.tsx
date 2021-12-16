@@ -4,8 +4,7 @@ import pescatarian from './assets/pescatarian.jpg';
 import vegan from './assets/vegan.jpg';
 import vegetarian from './assets/vegetarian.jpg';
 import kosher from './assets/kosher.png';
-import {useState} from 'react';
-import Recipe from './recipe';
+
 import { useSearchParams } from 'react-router-dom'
 
 function DisplayDiet() {
