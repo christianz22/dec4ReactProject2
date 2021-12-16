@@ -4,8 +4,7 @@ import gluten from './assets/glutenFree.jpg';
 import egg from './assets/eggFree.png';
 import dairy from './assets/dairyFree.png'; 
 import soy from './assets/soyFree.png'
-import Recipe from './recipe' ;
-import {useState} from 'react';
+
 import { useSearchParams } from 'react-router-dom'
 
 function DisplayAllergies() {
@@ -13,6 +12,7 @@ function DisplayAllergies() {
     const setQuery = (q: string) => {
         setSearchParams({ 'query': q })
     }
+    searchParams
     return(
         <div>
             <div className="categoryPicturesContainer">

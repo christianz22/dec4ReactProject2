@@ -65,21 +65,21 @@ function Header() {
     //     setSubcategories(false);
     // }
 
-    function offCuisine() {
-        setCuisineOn(false)
-    }
-
-    function offDiet() {
-        setDietOn(false)
-    }
-
-    // function offMeal() {
-    //     setMealOn(false)
+    // function offCuisine() {
+    //     setCuisineOn(false)
     // }
 
-    function offAllergies() {
-        setAllergiesOn(false)
-    }
+    // function offDiet() {
+    //     setDietOn(false)
+    // }
+
+    // // function offMeal() {
+    // //     setMealOn(false)
+    // // }
+
+    // function offAllergies() {
+    //     setAllergiesOn(false)
+    // }
 
 
 
@@ -87,7 +87,7 @@ function Header() {
     const setQuery = (q: string) => {
         setSearchParams({ 'query': q })
     }
-
+    searchParams
     let [searchQuery, setSearchQuery] = useState('')
     // searchParams.get('query') default state
 

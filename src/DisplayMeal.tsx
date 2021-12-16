@@ -12,6 +12,7 @@ function DisplayMeal() {
     const setQuery = (q: string) => {
         setSearchParams({ 'query': q })
     }
+    searchParams
     return(
         <div>
             <div className="categoryPicturesContainer">

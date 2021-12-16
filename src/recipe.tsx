@@ -13,14 +13,14 @@ import RecipeDetailItem from "./recipeItem";
 function Recipe() {
     let [searchParams, setSearchParam] = useSearchParams();
     const query = searchParams.get('query') || '' ;
-
+    setSearchParam
     useEffect(() => {
         getRecipe(query).then(data => setRecipe(data));
         }, [query])
 
     const [recipe, setRecipe] = useState<RecipeItem[]>([])
     const {addFavorite} = useContext(FavoritesContext);
-
+        addFavorite
     const recipeList = useMemo(() => {
         return recipe.map((item, index) => <RecipeDetailItem recipe={item} key={index} />)
         }, [recipe]);

@@ -15,7 +15,8 @@ function FavoritesList() {
         { label: "Peyton Manning", healthLabels: '012', cuisineType: "American" }
     ]);
     const context = useContext(FavoritesContext);
-    
+    recipeItems
+    setRecipeItems
 
     return (
         <div className="favoritesListContainer">

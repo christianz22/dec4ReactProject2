@@ -1,37 +1,37 @@
-import { useState } from "react";
-import  {RecipeResponse}  from "./GetRecipe";
+// import { useState } from "react";
+// import  {RecipeResponse}  from "./GetRecipe";
   
-const ReadMore = ( children: string ) => {
+// const ReadMore = ( children: string ) => {
  
-  const [moreDetails, setmoreDetails] = useState(false);
+//   const [moreDetails, setmoreDetails] = useState(false);
   
 
-  const toggleMoreDetails = () => {
-    setmoreDetails(!moreDetails);
+//   const toggleMoreDetails = () => {
+//     setmoreDetails(!moreDetails);
     
-  };
-  return (
-    <p className="text">
+//   };
+//   return (
+//     <p className="text">
       
-      <button onClick={toggleMoreDetails} className="read-or-hide">
-        {moreDetails ? "...read more" : " show less"}
-      </button>
+//       <button onClick={toggleMoreDetails} className="read-or-hide">
+//         {moreDetails ? "...read more" : " show less"}
+//       </button>
       
-    </p>
-  );
-};
+//     </p>
+//   );
+// };
   
-const Content = () => {
-    const [moreRecipe, setmoreRecipe] = useState<RecipeResponse[]>([]);
+// const Content = () => {
+//     const [moreRecipe, setmoreRecipe] = useState<RecipeResponse[]>([]);
     
 
-  return (
-    {
-       moreRecipe
-    }
+//   return (
+//     {
+//        moreRecipe
+//     }
      
     
-  );
-};
+//   );
+// };
   
-export default ReadMore;
+// export default ReadMore;
