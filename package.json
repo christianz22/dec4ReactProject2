@@ -39,17 +39,11 @@
             "not op_mini all"
         ],
         "development": [
-                "last 1 chrome version",
-                "last 1 firefox version",
-                "last 1 safari version"
-            ] <<
-            << << < HEAD
-    } ===
-    === =
-},
-"devDependencies": {
-    "gh-pages": "^3.2.3"
-},
-"homepage": "http://kangeuge90.github.io/dec4ReactProject2" >>>
->>> > 443 bb7e70cad97972b9c0aec31bc367bc4fc4372
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+
+    }
+
 }
