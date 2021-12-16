@@ -153,13 +153,8 @@ function Header() {
                 <div className="searchBar">
                     <section className='favoritesSection'>
                         <div className='favoritesInnerSection'>
-<<<<<<< HEAD
-                            <Link to='/'><img alt="home" onClick={resetCategories} src={HomeButton}></img></Link>
-                            <Link to='/favorites'><img alt="favorites" src={favoritesHeart}></img></Link>
-=======
                             <Link to='/dec4ReactProject2/' onClick={() => {setFavorites(false)}}><img alt="home" onClick={resetCategories} src={HomeButton}></img></Link>
                             <Link to='/dec4ReactProject2/favorites' onClick={coupledFavoritesOnClick}><img alt="favorites" src={favoritesHeart}></img></Link>
->>>>>>> 443bb7e70cad97972b9c0aec31bc367bc4fc4372
                         </div>
                     </section>
                     <img src={SearchText} alt="search"></img><input className="searchInput" value={searchQuery} onChange={(e)=>setSearchQuery(e.target.value)}/>
