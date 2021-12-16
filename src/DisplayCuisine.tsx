@@ -8,11 +8,11 @@ import asian from './assets/asianCuisine.jpg';
 import { useSearchParams } from 'react-router-dom'
 
 function DisplayCuisine() {
-    let [searchParams, setSearchParams] = useSearchParams();
+    let [, setSearchParams] = useSearchParams();
     const setQuery = (q: string) => {
         setSearchParams({ 'query': q })
     }
-    searchParams
+    
     return(
     <div>
         <div className="categoryPicturesContainer">

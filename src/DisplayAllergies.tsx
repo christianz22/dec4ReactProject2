@@ -8,11 +8,11 @@ import soy from './assets/soyFree.png'
 import { useSearchParams } from 'react-router-dom'
 
 function DisplayAllergies() {
-    let [searchParams, setSearchParams] = useSearchParams();
+    let [, setSearchParams] = useSearchParams();
     const setQuery = (q: string) => {
         setSearchParams({ 'query': q })
     }
-    searchParams
+    
     return(
         <div>
             <div className="categoryPicturesContainer">

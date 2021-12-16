@@ -11,9 +11,9 @@ import RecipeDetailItem from "./recipeItem";
 // }
 
 function Recipe() {
-    let [searchParams, setSearchParam] = useSearchParams();
+    let [searchParams, ] = useSearchParams();
     const query = searchParams.get('query') || '' ;
-    setSearchParam
+    
     useEffect(() => {
         getRecipe(query).then(data => setRecipe(data));
         }, [query])
