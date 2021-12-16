@@ -146,13 +146,8 @@ function Header() {
                 <div className="searchBar">
                     <section className='favoritesSection'>
                         <div className='favoritesInnerSection'>
-<<<<<<< HEAD
-                            <Link to='/'><img src={HomeButton} alt="home"></img></Link>
-                            <Link to='/favorites'><img src={favoritesHeart} alt="favorites"></img></Link>
-=======
-                            <Link to='/'><img onClick={resetCategories} src={HomeButton}></img></Link>
-                            <Link to='/favorites'><img src={favoritesHeart}></img></Link>
->>>>>>> 88e74d77ffffb8e2304c2f8959e1acbb2ab77b5e
+                            <Link to='/'><img alt="home" onClick={resetCategories} src={HomeButton}></img></Link>
+                            <Link to='/favorites'><img alt="favorites" src={favoritesHeart}></img></Link>
                         </div>
                     </section>
                     <img src={SearchText} alt="search"></img><input className="searchInput" value={searchQuery} onChange={(e)=>setSearchQuery(e.target.value)}/>
