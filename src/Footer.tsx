@@ -1,5 +1,6 @@
 import MadeBy from './assets/madeby.png'
 import Credits from './assets/rmcredits.png'
+import './Footer.css'
 
 function Footer() {
     return (

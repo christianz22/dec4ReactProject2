@@ -43,4 +43,8 @@
     .recipeContainer {
         width: 80vw;
     }
+    .detailsContainer img {
+        height: 40px;
+        width: 80px;
+    }
 }

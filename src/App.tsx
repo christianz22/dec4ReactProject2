@@ -22,9 +22,11 @@ function App() {
         <Routes>
           <Route path='/' element={<Recipe />} />
           <Route path="/favorites" element={<FavoritesList />} />
+          <Route path='/dec4ReactProject2/' element={<Recipe />} />
+          <Route path="/dec4ReactProject2/favorites" element={<FavoritesList />} />
         </Routes>
 
-      <Footer />
+      {/* <Footer /> */}
 
     </div>
     

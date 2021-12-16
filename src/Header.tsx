@@ -19,6 +19,7 @@ import AllergiesButton from './assets/allergies.png'
 
 function Header() {
     const [subcategories, setSubcategories] = useState(false)
+    const [favorites, setFavorites] = useState(false)
 
 
     function coupledCuisineFunctionFalse() {
@@ -130,6 +131,12 @@ function Header() {
         setAllergiesOn(false)
     }
 
+    function coupledFavoritesOnClick() {
+        setFavorites(true)
+        setSubcategories(false)
+        resetCategories();
+    }
+
     return (
         <div className="headerContainer">
             <div className='titleContainer'>
@@ -146,15 +153,21 @@ function Header() {
                 <div className="searchBar">
                     <section className='favoritesSection'>
                         <div className='favoritesInnerSection'>
+<<<<<<< HEAD
                             <Link to='/'><img alt="home" onClick={resetCategories} src={HomeButton}></img></Link>
                             <Link to='/favorites'><img alt="favorites" src={favoritesHeart}></img></Link>
+=======
+                            <Link to='/dec4ReactProject2/' onClick={() => {setFavorites(false)}}><img alt="home" onClick={resetCategories} src={HomeButton}></img></Link>
+                            <Link to='/dec4ReactProject2/favorites' onClick={coupledFavoritesOnClick}><img alt="favorites" src={favoritesHeart}></img></Link>
+>>>>>>> 443bb7e70cad97972b9c0aec31bc367bc4fc4372
                         </div>
                     </section>
                     <img src={SearchText} alt="search"></img><input className="searchInput" value={searchQuery} onChange={(e)=>setSearchQuery(e.target.value)}/>
                 </div>
                 {/* Style adjustments needed here, to make appearance of favorites icon + text more cohesive */}
             </form>
-            <div className="categoriesContainer">
+            {favorites=== false
+            && <div className="categoriesContainer">
                 {/* <h2 className="sortText">Sort by: </h2> */}
                 <ul className="categoryButtons">
                     {subcategories===false
@@ -172,6 +185,7 @@ function Header() {
                     }
                 </ul>
             </div>
+            }
             <div className="subCategoriesContainer">
                 {cuisine===true && <DisplayCuisine />}
                 {/* {meal===true && <DisplayMeal />} */}

@@ -14,6 +14,7 @@
 .categoryPicture img {
     height: 16vw;
     width: 16vw;
+    border-radius: 10px;
 }
 
 .categoryPicturesContainer h3 {
@@ -23,6 +24,6 @@
 
 @media (max-width: 480px) {
     .categoryPicturesContainer h3 {
-        font-size: 10.5px;
+        font-size: 9px;
     }
 }

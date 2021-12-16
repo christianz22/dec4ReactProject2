@@ -19,13 +19,13 @@
 }
 
 .recimeTitle img {
-    width: 500px;
-    height: 250px;
+    width: 400px;
+    height: 200px;
 }
 
 .searchBarContainer img {
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
     margin: 6px;
 }
 
@@ -35,8 +35,8 @@
 }
 
 .searchBar img {
-    height: 75px;
-    width: 150px;
+    height: 62.5px;
+    width: 125px;
 }
 
 .favoritesInnerSection {
@@ -160,17 +160,18 @@ hr {
         width: 80vw;
     }
     .recimeLogo {
-        width: 80vw;
+        width: 75vw;
     }
     .recimeTitle {
-        width: 80vw;
+        width: 75vw;
     }
     .searchBar img {
-        width: 80px;
-        height: 60px;
+        width: 60px;
+        height: 40px;
     }
     .categoryButtons img {
         width: 100px;
+        height: 60px;
     }
     .recimeTitle img {
         width: 250px;
@@ -179,5 +180,12 @@ hr {
     .favoritesInnerSection img {
         width: 40px;
         height: 40px;
+    }
+    .recimeLogo img {
+        width: 70px;
+        height: 70px;
+    }
+    .searchBarContainer input {
+        width: 36vw;
     }
 }
