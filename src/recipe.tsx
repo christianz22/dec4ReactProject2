@@ -19,8 +19,8 @@ function Recipe() {
         }, [query])
 
     const [recipe, setRecipe] = useState<RecipeItem[]>([])
-    const {addFavorite} = useContext(FavoritesContext);
-        addFavorite
+    const {} = useContext(FavoritesContext);
+        
     const recipeList = useMemo(() => {
         return recipe.map((item, index) => <RecipeDetailItem recipe={item} key={index} />)
         }, [recipe]);
